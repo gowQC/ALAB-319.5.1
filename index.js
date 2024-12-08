@@ -87,7 +87,7 @@ app.get("/fruits/:id/edit", async (req, res) => {
   }
 });
 
-// "/fruits" render routes
+// "/vegetables" render routes
 app.get("/vegetables", async (req, res) => {
   try {
     const foundVegetables = await Vegetable.find({});
